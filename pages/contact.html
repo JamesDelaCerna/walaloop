@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Motorcycle Parts - Contact</title>
-  <link rel="stylesheet" href="../assets/style/style.css">
+  <link rel="stylesheet" href="../assets/style/style.css" />
 </head>
 
 <body>
   <!-- Header -->
   <header id="header">
     <nav class="navbar container">
-      <div>Motorcycle Parts</div>
-      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <div class="logo">Motorcycle Parts</div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
       <label for="menu-toggle" class="menu-btn">☰</label>
       <ul class="nav-links">
         <li><a href="../index.html">Home</a></li>
@@ -26,24 +26,49 @@
 
   <!-- Main Content -->
   <main>
-    <section id="contact">
-      <div class="container contact-container">
-        <h1>Contact Our Team</h1>
-        <p>If you have questions about your order, product availability, or need help choosing the right motorcycle parts, reach out to us below.</p>
-        
-        <form action="./thank-you.html">
-          <div class="form-row">
-            <div class="form-group">
-              <label for="firstName">First name</label>
-              <input type="text" id="firstName" placeholder="Enter first name" required>
-            </div>
-
-            <div class="form-group">
-              <label for="lastName">Last name</label>
-              <input type="text" id="lastName" placeholder="Enter last name" required>
-            </div>
+  <section id="contact">
+    <div class="container contact-container">
+      <h1>Send a Message</h1>
+      <form action="./thank-you.html">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter first name" required>
           </div>
 
           <div class="form-group">
-            <label for="email">Email</label>
-            <input type
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter last name" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phoneNumber">Phone Number</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required>
+        </div>
+
+        <div class="form-group">
+          <label for="social">IG or FB</label>
+          <textarea id="social" name="social" placeholder="Enter your IG or FB handle" rows="5" required></textarea>
+        </div>
+
+        <button class="primary-button" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <p>© 2025 - Web Development. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
