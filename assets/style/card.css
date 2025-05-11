@@ -1,11 +1,11 @@
-/* Layout for the card container as columns (table-like) */
+
 .service-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 3 columns if space allows */
   gap: 24px;
 }
 
-/* Card Style (unchanged but cleanly formatted) */
+
 .card {
   background: #FFFFFF;
   width: 100%;
@@ -17,28 +17,28 @@
   justify-content: space-between;
 }
 
-/* Image Style */
+
 .card-header img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-/* Title in Header */
+
 .card-header h3 {
   padding: 14px 18px;
   font-size: 1.2rem;
   margin: 0;
 }
 
-/* Body Text */
+
 .card-body {
   padding: 0 18px;
   font-size: 0.95rem;
   color: #444;
 }
 
-/* Footer Button Area */
+
 .card-footer {
   padding: 14px 18px;
   text-align: right;

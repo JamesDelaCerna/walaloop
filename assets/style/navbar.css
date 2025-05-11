@@ -1,9 +1,9 @@
-/* Header */
+
 #header {
   background: #333;
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,7 @@
   color: #a3540a;
 }
 
-/* Toggle Menu (Mobile) */
+
 .menu-toggle {
   display: none;
 }
@@ -40,7 +40,7 @@
   cursor: pointer;
 }
 
-/* Mobile Styles */
+
 @media (max-width: 768px) {
   .menu-btn {
     display: block;
